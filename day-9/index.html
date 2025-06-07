@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .relative-box {
+            position: relative;
+            background-color: #5f0fdf;
+            border: 1px dashed #060606;
+            width: 300px;
+            height: 200px;
+            padding: 20px;
+            margin: 1px;
+            top: 50px;
+            left: 0px;
+            z-index: 1;
+        }
+
+        .relative-box1 {
+            position: absolute;
+            background-color: #f9fc4a;
+            border: 1px dashed #121211;
+            width: 20px;
+            height: 50px;
+            padding: 20px;
+            margin: 1px;
+            top: 120px;
+            left: 30px;
+            z-index: 2;
+        }
+        .element {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: #f3f8a8;
+            border: 3px solid #e74c3c;
+            width: 200px;
+            height: 100px;
+            padding: 20px;
+            margin: 40px 100px;
+            z-index: 3;
+        }
+
+        .nav {
+            position: fixed;
+            top: 1px;
+            background-color: #f3f8a8;
+            border: 3px dashed #e74c3c;
+            width: 300px;
+            height: 100px;
+            padding: 20px;
+            margin: 40px 30px;
+            z-index: 2;
+        }
+        .nav1 {
+            position: fixed-left;
+            top: 0px;
+            left: 0px;
+            background-color: #f3f8a8;
+            border: 1px dashed #e74c3c;
+            width: 150px;
+            height: 70px;
+            padding: 20px;
+            margin: 4px 3px;
+            z-index: 5;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav1">
+    <span>
+        Fixed at top</span></div>
+    <div>
+        <span class="relative-box">1</span>
+        <span class="relative-box1">2</span>
+        <span class="relative-box">3</span>
+    </div>
+</body>
+
+</html>
