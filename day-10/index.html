@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-10</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .main {
+            width: 100%;
+            height: 100vh;
+            border: 5px solid #fff;
+            justify-content: first baseline;
+        }
+
+        .main1 {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid #000;
+
+        }
+
+        .icon {
+            width: 10%;
+            height: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #000;
+        }
+
+        .content {
+            width: 50%;
+            height: 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #fff;
+            font-weight: bold;
+            border: 1px solid #2a05e6;
+
+
+        }
+
+        .search {
+            width: 30%;
+            height: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #000;
+
+        }
+
+        .profile {
+            width: 20%;
+            height: 10%;
+            display: inline-flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border: 1px solid #f90404;
+
+        }
+
+        .home {
+            width: 100;
+            display: block;
+            justify-content: flex-start;
+            align-items: center;
+            padding-left: 20px;
+        }
+
+        .filter {
+            height: 20%;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            background-color: #f0f0f0;
+            padding-bottom: 5px;
+            border: 2px solid #000;
+        }
+
+        .sort {
+            height: 10%;
+            width: 40%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f0f0f0;
+            border: 1px solid #dcf405;
+        }
+
+        .bundles {
+            height: 10%;
+            display: inline-block;
+            justify-content: flex-start;
+            align-items: center;
+            border: 1px solid #000;
+        }
+
+        .sortby {
+            height: 10%;
+            width: 20%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: end;
+            background-color: #f0f0f0;
+        }
+
+        .all {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+
+        .right {
+            width: 20%;
+            height: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            border: 1px solid #000;
+        }
+
+        .left {
+            width: 80%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: first baseline;
+            border: 1px solid #000;
+            padding: 5px;
+        }
+
+        .img1 {
+            width: 300px;
+            height: 400px;
+            background-position:top center;
+            background-repeat: no-repeat;
+            text-align: left;
+        }   
+        .div {
+            width: 32%;
+            height: 70%;
+            border: 2px solid #000;
+            padding:2px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="main1">
+            <div class="icon">
+                <img src="https://cdn.iconscout.com/icon/free/png-256/free-myntra-logo-icon-download-in-svg-png-gif-file-formats--shopping-brand-online-application-app-mobile-indian-companies-pack-logos-icons-2249158.png"
+                    alt="Logo" width="50" height="50">
+            </div>
+            <div class="content">
+                <div>MEN</div>
+                <div>WOMEN</div>
+                <div>KIDS</div>
+                <div>HOME</div>
+                <div>BEAUTY</div>
+                <div>GENZ</div>
+                <div>STUDIO<sup>NEW</sup></div>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Search for products, brands and more">
+            </div>
+            <div class="profile">
+                <div>Profile</div>
+                <div>Wishlist</div>
+                <div>Bag</div>
+            </div>
+        </div>
+        <br />
+        <hr />
+        <div class="home">
+            <div>Home / Clothing / <b>Men T-Shirts</b></div>
+            <div><b>Men T-Shirts</b> 219906 items</div>
+        </div>
+        <br />
+        <div>
+            <div class="filter">
+                <div class="sort">FILTERS
+                <div>
+                    <div class="bundles">Bundles</div>
+                    <div class="bundles">Country of Origin</div>
+                    <div class="bundles">Size</div>
+                </div></div>
+                <div class="sortby">Sort by:<b>Recommended</b></div>
+            </div>
+        </div>
+        <div class="all">
+            <div class="right">
+                <div>
+                    <div><b>CATEGORIES</b></div>
+                    <div><input type="checkbox">T-Shirts</div>
+                    <div><input type="checkbox">Lounge Tshirts</div>
+                    <br /><br />
+                    <div><b>BRAND</b></div><br />
+                    <div><input type="checkbox">Roadster</div>
+                    <div><input type="checkbox">H&M</div>
+                    <div><input type="checkbox">Puma</div>
+                    <div><input type="checkbox">Nike</div><br /><br /><br />
+                    <div><b>PRICE</b></div>
+                    <div><input type="range" min="0" max="10000" step="100" value="5000"></div>
+                    <div>Rs. 0 - Rs. 9999</div>
+                </div>
+            </div>
+            <div class="left">
+                <div class="div">
+                <div class="img1" style="background-image: url('../images/tshirt.png');"> 4.4* | 1.5k </div>
+                <div><b>H&M</b></div>
+                <div>Loose Fit Printed Tshirt</div></div>
+                <div class="div">
+                <div class="img1" style="background-image: url('../images/tshirt.png');"> 4.4* | 1.5k </div>
+                <div><b>H&M</b></div>
+                <div>Loose Fit Printed Tshirt</div></div>
+                <div class="div">
+                <div class="img1" style="background-image: url('../images/tshirt.png');"> 4.4* | 1.5k </div>
+                <div><b>H&M</b></div>
+                <div>Loose Fit Printed Tshirt</div></div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>
