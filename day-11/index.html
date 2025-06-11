@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .pricing {
+            display: flex;
+            width: 98%;
+            height: 15vh;
+            gap: 20px;
+            justify-content: center;
+            align-items: stretch;
+            border: 3px solid #fc7f0b;
+            background-color: rgb(142, 139, 139);
+            padding: 7px;
+            margin: 10px auto;
+        }
+
+        .card {
+            flex: 1;
+            padding: 20px;
+            background: #eee;
+            border-radius: 10px;
+            text-align: center;
+            border: 1px solid #ccc;
+        }
+
+        .flex-end {
+            display: flex;
+            align-self: flex-end;
+            background: #d1e7dd;
+        }
+
+        .flex-start {
+            display: flex;
+            align-self: flex-start;
+            background: #d1e7dd;
+        }
+
+        .flex-wrap {
+            display: flex;
+            flex-wrap: wrap;
+            width: 98%;
+            height: 15vh;
+            justify-content: center;
+            align-items: stretch;
+            border: 3px solid #fc7f0b;
+            background-color: rgb(142, 139, 139);
+            padding: 7px;
+            margin: 10px auto;
+        }
+
+        .flex-grow {
+            flex-grow: 2;
+            padding: 20px;
+            background: #eee;
+            border-radius: 10px;
+            text-align: center;
+            border: 1px solid #ccc;
+        }
+
+        .flex-shrink {
+            flex-shrink: 2;
+            padding: 20px;
+            background: #eee;
+            border-radius: 10px;
+            text-align: center;
+            border: 1px solid #ccc;
+        }
+
+        .flex {
+            display: flex;
+            /* width: 98%; */
+            height: 15vh;
+            /* gap: 20px;
+            justify-content: center;
+            align-items: stretch; */
+            border: 3px solid #fc7f0b;
+            background-color: rgb(142, 139, 139);
+            padding: 10px;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h4>mini challange:</h4>3-Column Pricing Table
+    <div class="pricing">
+        <div class="card">Basic</div>
+        <div class="card">Pro</div>
+        <div class="card">Premium</div>
+    </div>
+    <h4>Homework:</h4>1.flex-end
+    <div class="pricing">
+        <div class="card">Basic</div>
+        <div class="card flex-end">Pro</div>
+        <div class="card">Premium</div>
+    </div>
+    Homework: 2.flex-start
+    <div class="pricing">
+        <div class="card">Basic</div>
+        <div class="card flex-start">Pro</div>
+        <div class="card">Premium</div>
+    </div>
+    Homework: 3.flex-wrap
+    <div class="flex-wrap">
+        <div class="card">Basic</div>
+        <div class="card">Pro</div>
+        <div class="card">Premium</div>
+    </div>
+    Homework: 3.flex-grow
+    <div class="flex">
+        <div class="card">Basic</div>
+        <div class="flex-grow">Pro</div>
+        <div class="card">Premium</div>
+    </div>
+    Homework: 3.flex-shrink
+    <div class="flex">
+        <div class="card">Basic</div>
+        <div class="flex-shrink">Pro</div>
+        <div class="card">Premium</div>
+    </div>
+</body>
+
+</html>
