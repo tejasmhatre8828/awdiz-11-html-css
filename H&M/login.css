@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+
+#body {
+    width: 100%;
+    height: 100vh;
+    padding: 0px 25px;
+    /* display: block;
+    justify-content: center;
+    align-items: center; */
+    /* border: 10px solid rgb(17, 0, 255); */
+
+}
+
+.top {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Almarai", sans-serif;
+    padding-bottom: 30px;
+    /* border: 1px solid red; */
+
+}
+
+#logoleft {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    /* align-content: center; */
+    align-items: center;
+}
+
+#logoright {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo4 {
+    width: 90%;
+}
+
+#info {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    /* border: 10px solid red; */
+}
+
+#login {
+    width: 40%;
+    height: 70%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    /* border: 3px solid green; */
+}
+
+#welcome {
+    font-weight: 700;
+    font-size: 55px;
+    font-family: "Almarai", sans-serif;
+    margin-bottom: 10%;
+}
+
+#login div {
+    margin-bottom: 20px;
+}
+
+#email {
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+}
+
+#button {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    margin-bottom: 20px;
+}
+
+#hm {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    font-family: "Almarai", sans-serif;
+}
