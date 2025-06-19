@@ -5,98 +5,210 @@
     /* border: 1px solid red; */
 }
 
-#body {
-    width: 100%;
-    height: 100vh;
-    padding: 0px 25px;
-    /* display: block;
+@media (min-width: 320px) and (max-width: 480px) {
+
+    #body {
+        width:100vw;
+        height: 100vh;
+        padding: 15px;
+        /* display: block;
     justify-content: center;
     align-items: center; */
-    /* border: 10px solid rgb(17, 0, 255); */
+        /* border: 10px solid rgb(17, 0, 255); */
 
+    }
+
+    .top {
+        width: 100%;
+        height: 52px;
+        display: flex;
+        justify-content: space-between;
+        align-items:first baseline;
+        justify-items:baseline;
+        font-family: "Almarai", sans-serif;
+        /* padding-top: 5px; */
+        padding-bottom: 5px;
+        border: 1px solid rgb(23, 21, 21);
+
+    }
+
+    #logoleft {
+        width: 40px;
+        /* height: 100%; */
+        display: flex;
+        /* align-content: center; */
+        align-items: center;
+    }
+
+    #logoright {
+        width: 220px;
+        /* height: 100%; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #logo1 {
+        display: none;
+    }
+
+    .logo4 {
+        width: 20px
+    }
+
+    .logo2 {
+        width: 25px
+    }
+
+    #info {
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        border: 5px solid red;
+    }
+
+    #login {
+        width: 100vw;
+        height: 70%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        /* border: 3px solid green; */
+    }
+
+    #welcome {
+        font-weight: 700;
+        font-size: 55px;
+        font-family: "Almarai", sans-serif;
+        margin-bottom: 10%;
+    }
+
+    #login div {
+        margin-bottom: 20px;
+    }
+
+    #email {
+        width: 100%;
+        height: 60px;
+        padding: 10px;
+    }
+
+    #button {
+        width: 100%;
+        height: 60px;
+        background-color: black;
+        color: white;
+        font-size: medium;
+        margin-bottom: 20px;
+    }
+
+    #hm {
+        display: flex;
+        justify-content: center;
+        text-decoration: underline;
+        font-family: "Almarai", sans-serif;
+    }
 }
 
-.top {
-    width: 100%;
-    height: 30%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: "Almarai", sans-serif;
-    padding-bottom: 30px;
-    /* border: 1px solid red; */
+@media (min-width: 992px) and (max-width: 1200px) {
 
-}
+    .top {
+        width: 100%;
+        height: 30%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: "Almarai", sans-serif;
+        padding-bottom: 30px;
+        /* border: 1px solid red; */
 
-#logoleft {
-    width: 20%;
-    height: 100%;
-    display: flex;
-    /* align-content: center; */
-    align-items: center;
-}
+    }
 
-#logoright {
-    width: 15%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    #logoleft {
+        width: 20%;
+        height: 100%;
+        display: flex;
+        /* align-content: center; */
+        align-items: center;
+    }
 
-.logo4 {
-    width: 90%;
-}
+    #logoright {
+        width: 15%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-#info {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    justify-items: center;
-    /* border: 10px solid red; */
-}
+    #logo1 {
+        display: block;
+    }
 
-#login {
-    width: 40%;
-    height: 70%;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    /* border: 3px solid green; */
-}
+    .logo4 {
+        width: 90%;
+    }
 
-#welcome {
-    font-weight: 700;
-    font-size: 55px;
-    font-family: "Almarai", sans-serif;
-    margin-bottom: 10%;
-}
+    .logo2 {
+        display: none;
+    }
 
-#login div {
-    margin-bottom: 20px;
-}
+    #info {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        /* border: 10px solid red; */
+    }
 
-#email {
-    width: 100%;
-    height: 60px;
-    padding: 10px;
-}
+    #login {
+        width: 40%;
+        height: 70%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        /* border: 3px solid green; */
+    }
 
-#button {
-    width: 100%;
-    height: 60px;
-    background-color: black;
-    color: white;
-    font-size: medium;
-    margin-bottom: 20px;
-}
+    #welcome {
+        font-weight: 700;
+        font-size: 55px;
+        font-family: "Almarai", sans-serif;
+        margin-bottom: 10%;
+    }
 
-#hm {
-    display: flex;
-    justify-content: center;
-    text-decoration: underline;
-    font-family: "Almarai", sans-serif;
+    #login div {
+        margin-bottom: 20px;
+    }
+
+    #email {
+        width: 100%;
+        height: 60px;
+        padding: 10px;
+    }
+
+    #button {
+        width: 100%;
+        height: 60px;
+        background-color: black;
+        color: white;
+        font-size: medium;
+        margin-bottom: 20px;
+    }
+
+    #hm {
+        display: flex;
+        justify-content: center;
+        text-decoration: underline;
+        font-family: "Almarai", sans-serif;
+    }
+
+
+
 }
